@@ -1,8 +1,8 @@
 package mpeg
 
 import (
-	"github.com/stunndard/goicy/logger"
-	"github.com/stunndard/goicy/util"
+	"github.com/schenklklopfer/goicy/logger"
+	"github.com/schenklklopfer/goicy/util"
 	"io"
 	"os"
 	"strconv"
