@@ -187,7 +187,6 @@ func StreamFFMPEG(filename string) error {
 				"-i", filename,
 				"-c:a", "libmp3lame",
 				"-b:a", strconv.Itoa(config.Cfg.StreamBitrate),
-				"-cutoff", "20000",
 				"-ar", strconv.Itoa(config.Cfg.StreamSamplerate),
 				"-ac", strconv.Itoa(config.Cfg.StreamChannels),
 				"-f", "mp3",
