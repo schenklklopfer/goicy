@@ -3,9 +3,9 @@ package metadata
 import (
 	"encoding/base64"
 	"github.com/go-ini/ini"
-	"github.com/stunndard/goicy/config"
-	"github.com/stunndard/goicy/logger"
-	"github.com/stunndard/goicy/network"
+	"github.com/schenklklopfer/goicy/config"
+	"github.com/schenklklopfer/goicy/logger"
+	"github.com/schenklklopfer/goicy/network"
 	"net/url"
 	"os/exec"
 	"strings"
