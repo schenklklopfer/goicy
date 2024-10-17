@@ -2,8 +2,8 @@ package playlist
 
 import (
 	"errors"
-	"github.com/stunndard/goicy/config"
-	"github.com/stunndard/goicy/util"
+	"github.com/schenklklopfer/goicy/config"
+	"github.com/schenklklopfer/goicy/util"
 	"io/ioutil"
 	"math/rand"
 	"strings"
