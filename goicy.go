@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/stunndard/goicy/config"
-	"github.com/stunndard/goicy/daemon"
-	"github.com/stunndard/goicy/logger"
-	"github.com/stunndard/goicy/playlist"
-	"github.com/stunndard/goicy/stream"
-	"github.com/stunndard/goicy/util"
+	"github.com/schenklklopfer/goicy/config"
+	"github.com/schenklklopfer/goicy/daemon"
+	"github.com/schenklklopfer/goicy/logger"
+	"github.com/schenklklopfer/goicy/playlist"
+	"github.com/schenklklopfer/goicy/stream"
+	"github.com/schenklklopfer/goicy/util"
 
 	"os"
 	"os/signal"
@@ -40,7 +40,7 @@ func main() {
 	}
 	inifile := string(os.Args[1])
 
-	//inifile := "d:\\work\\src\\Go\\src\\github.com\\stunndard\\goicy\\tests\\goicy.ini"
+	//inifile := "d:\\work\\src\\Go\\src\\github.com\\schenklklopfer\\goicy\\tests\\goicy.ini"
 
 	logger.TermLn("Loading config...", logger.LOG_DEBUG)
 	err := config.LoadConfig(inifile)
