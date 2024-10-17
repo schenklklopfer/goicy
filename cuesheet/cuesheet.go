@@ -2,8 +2,8 @@ package cuesheet
 
 import (
 	"bufio"
-	"github.com/stunndard/goicy/logger"
-	"github.com/stunndard/goicy/metadata"
+	"github.com/schenklklopfer/goicy/logger"
+	"github.com/schenklklopfer/goicy/metadata"
 	"io"
 	"os"
 	"strconv"
