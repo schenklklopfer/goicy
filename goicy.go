@@ -117,8 +117,8 @@ func main() {
 
 			}
 
-			logger.Log("Retrying in 10 sec...", logger.LOG_INFO)
-			for i := 0; i < 10; i++ {
+			logger.Log("Retrying in 3 sec...", logger.LOG_INFO)
+			for i := 0; i < 3; i++ {
 				time.Sleep(time.Second * 1)
 				if stream.Abort {
 					break
